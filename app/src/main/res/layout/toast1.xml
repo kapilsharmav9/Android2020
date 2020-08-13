@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/toastlayout"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@mipmap/girl"
+
+
+        />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hii guys"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+       android:textStyle="italic"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp" />
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

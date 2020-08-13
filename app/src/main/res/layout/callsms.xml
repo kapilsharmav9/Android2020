@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/callsmsmlid"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <EditText
+        android:id="@+id/etxtnumber2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:hint="ENTER NUMBER"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnslCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_green_light"
+        android:layout_marginTop="30dp"
+        android:text="Call"/>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IntentBack1Activity">
+    <EditText
+        android:id="@+id/getname"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:hint="enter name"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+
+
+
+
+    <Button
+        android:id="@+id/btngetname"
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="get name"
+        android:background="@android:color/holo_orange_light"
+        android:layout_height="wrap_content"/>
+
+>=</LinearLayout>
